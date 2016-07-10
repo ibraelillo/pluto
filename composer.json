@@ -1,0 +1,24 @@
+{
+    "name": "ibra/pluto",
+    "description": "Test creation de una libreria",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ibrael Espinosa",
+            "email": "ibrael.avalanch@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pluto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pluto\\Tests\\": "tests/"
+        }
+    }
+}
